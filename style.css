@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Roboto+Mono");
+body {
+  height: 100vh;
+  width: 100%;
+  background: #52B3D9;
+  color: white;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.boruzele {
+  z-index: 2;
+}
+
+.gele {
+  width: 50%;
+  height: 60%;
+  position: relative;
+  top: -95%;
+  left: 60%;
+  right: 0%;
+  bottom: 0;
+  -webkit-animation: pulse 2s linear 0.2s 4 normal forwards;
+          animation: pulse 2s linear 0.2s 4 normal forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  8% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  16% {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+  }
+  24% {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+  32% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+  40% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  50% {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+  }
+  58% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  66% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+  74% {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+  82% {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+  }
+  90% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  8% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  16% {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+  }
+  24% {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+  32% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+  40% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  50% {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+  }
+  58% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  66% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+  74% {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+  82% {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+  }
+  90% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+#imginthefooter {
+  background: url(grass.png);
+  width: 100%;
+  height: 300px;
+  bottom: 0px;
+  top: -160px;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  padding-top: 20vh;
+  font-size: 8vw;
+  position: relative;
+  text-align: center;
+  font-family: 'Merriweather' , serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(77, 77, 77, 0.5);
+  z-index: 1000;
+  margin: 0;
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s 2s ease-in forwards;
+          animation: fadeIn 1s 2s ease-in forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+.sun {
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+  width: 5rem;
+  height: 5rem;
+  background: #F5AB35;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 30px #F39C12;
+          box-shadow: 0 0 30px #F39C12;
+}
+
+.slideIn {
+  -webkit-transform: translateX(-5rem);
+          transform: translateX(-5rem);
+  -webkit-animation: slideIn 3s ease-out forwards;
+          animation: slideIn 3s ease-out forwards;
+}
+
+@-webkit-keyframes slideIn {
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideIn {
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.flower {
+  position: absolute;
+  bottom: 180px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 50px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.flower_head {
+  height: 7rem;
+  width: 7rem;
+  background: #663399;
+  border-radius: 50%;
+  -webkit-animation-name: atsiranda;
+          animation-name: atsiranda;
+  margin: 0;
+}
+
+.flower_head {
+  -webkit-animation: atsiranda 10s ease 1 normal;
+          animation: atsiranda 10s ease 1 normal;
+}
+
+@-webkit-keyframes atsiranda {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes atsiranda {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flower_stem {
+  position: absolute;
+  left: 50px;
+  width: 5px;
+  height: 0px;
+  background: -webkit-gradient(linear, right top, left top, from(#0d0), to(#0a0));
+  background: linear-gradient(-90deg, #0d0, #0a0);
+  -webkit-animation: grow 8s linear forwards;
+          animation: grow 8s linear forwards;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: -105%;
+  margin: 0;
+}
+
+.flower_stem::after {
+  content: '';
+  margin-left: 0rem;
+  margin-top: 2rem;
+  width: 3em;
+  height: 3em;
+  display: block;
+  background: #1E824C;
+  border-radius: 2em 0 2em 0em;
+  -webkit-transform: rotateY(-140deg);
+          transform: rotateY(-140deg);
+  -webkit-animation-name: auga;
+          animation-name: auga;
+  -webkit-animation: auga 4.5s ease 1 normal;
+          animation: auga 4.5s ease 1 normal;
+}
+
+@-webkit-keyframes auga {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes auga {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes grow {
+  25% {
+    height: 0;
+  }
+  34% {
+    height: 22px;
+  }
+  39% {
+    height: 22px;
+  }
+  41% {
+    height: 27px;
+  }
+  45% {
+    height: 27px;
+  }
+  52% {
+    height: 92px;
+  }
+  55% {
+    height: 94px;
+  }
+  100% {
+    height: 120px;
+  }
+}
+
+@keyframes grow {
+  25% {
+    height: 0;
+  }
+  34% {
+    height: 22px;
+  }
+  39% {
+    height: 22px;
+  }
+  41% {
+    height: 27px;
+  }
+  45% {
+    height: 27px;
+  }
+  52% {
+    height: 92px;
+  }
+  55% {
+    height: 94px;
+  }
+  100% {
+    height: 120px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
